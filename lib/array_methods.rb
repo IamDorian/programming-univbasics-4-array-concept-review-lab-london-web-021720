@@ -3,9 +3,9 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  x = array[0]
+  x = 0
   array.lenght.times {|index|
-  if array[index] > index
+  if array[index] > x
     x = array[index]
   end
   }
